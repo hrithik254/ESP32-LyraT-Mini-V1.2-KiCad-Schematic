@@ -1,0 +1,72 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 2d2ccf75-3255-47ff-a65b-14dd5eb19bc6)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 158.115 26.67) (size 43.815 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1ede1e16-f0a2-40ff-a908-e97eb36a008c)
+    (property "Sheetname" "LDO Digital and Analog" (at 158.115 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LDO.kicad_sch" (at 158.115 55.1946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ESP32-LyraT-Mini-V1.2-KiCad"
+        (path "/2d2ccf75-3255-47ff-a65b-14dd5eb19bc6" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 27.305 26.67) (size 71.12 33.655) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f9be0ba5-4359-43fe-8800-48e9628090ae)
+    (property "Sheetname" "USB-UART-Charging" (at 27.305 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB-UART-Charging.kicad_sch" (at 27.305 60.9096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "IO0_IO2_AUTO" input (at 71.12 60.325 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 97d9e7c1-fdc5-439c-a053-5437201a0dea)
+    )
+    (pin "VBAT" input (at 98.425 32.385 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 55b3a7d1-d3ce-4c21-aa83-c849dc13e0ae)
+    )
+    (pin "EN_AUTO" input (at 74.295 60.325 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid a3bbbaa4-6bc3-4556-ab20-1aa20097a26a)
+    )
+    (pin "TXD0" input (at 77.47 60.325 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 43a0ea64-33cb-40f8-9769-387cb42ce5c3)
+    )
+    (pin "RXD0" input (at 80.01 60.325 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 2f057b17-ee86-4330-91b0-1e43fdff69a1)
+    )
+    (pin "VDD33" input (at 98.425 36.195 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 500cc06c-56ad-4eed-a5ec-0b1ad0438bf0)
+    )
+    (instances
+      (project "ESP32-LyraT-Mini-V1.2-KiCad"
+        (path "/2d2ccf75-3255-47ff-a65b-14dd5eb19bc6" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
